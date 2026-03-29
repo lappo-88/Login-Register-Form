@@ -20,10 +20,10 @@
     <span class="remember">Remember me</span>
     <span class="forget">Forgot Password</span>
     <span class="clearfix"></span>
-    <button> Log In</button>
+    <button onclick="return false;"> Log In</button>
   </form>
 
-  <span class="login with"> Or Connect with</span>
+  <span class="loginwith"> Or Connect with</span>
 
   <a href="#"><i class="fa-brands fa-facebook"></i></a>
   <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -39,7 +39,7 @@
 <!--  front-->
   <div class="page front">
     <div class="content">
-      <i class="fa-solid fa-user-plus"></i>
+      <i class="fa-solid fa-user-plus userIcon"></i>
       <h1>Hello, friend</h1>
       <p>Enter your personal details and start journey with us</p>
       <button id="register">
@@ -52,10 +52,11 @@
 <!--  back-->
   <div class="page back">
 <div class="content">
-  <i class="fa-solid fa-right-to-bracket"></i>
+  <i class="fa-solid fa-right-to-bracket bracketIcon"></i>
   <h1>Welcome Back</h1>
   <p>To keep connected  with us please login with your personal info</p>
   <button id="login">
+    <i class="fa-solid fa-arrow-left"></i> log in
   </button>
      </div>
   </div>
@@ -68,16 +69,14 @@
    <i class="fa-brands fa-twitter"></i>
       <i class="fa-brands fa-instagram"></i>
       <i class="fa-brands fa-github"></i>
-<span class="login with"> Or  </span>
+<span class="loginwith"> Or  </span>
       <form >
         <input type="text" placeholder="name">
         <input type="email" placeholder="email">
         <input type="password" placeholder="password">
         <span class="remember"> I accept terms</span>
         <span class="clearfix"></span>
-        <button> Register</button>
-
-
+        <button onclick="return false;"> Register</button>
       </form>
 
     </div>
